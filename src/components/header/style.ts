@@ -1,6 +1,0 @@
-import styled from "styled-components";
-
-export const ContainerHeader = styled.div`
-  display: flex;
-  flex-direction: column;
-`;

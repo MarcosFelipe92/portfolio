@@ -57,48 +57,10 @@ export const ProjectImage = styled.div`
   img {
     width: 100%;
     height: 100%;
-    object-fit: contain; /* Garante que a imagem será ajustada para caber inteiramente */
-    max-width: 100%; /* Limita a largura máxima */
-    max-height: 250px; /* Altura máxima que mantém a imagem dentro de um limite */
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 250px;
     border-radius: 16px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  }
-`;
-
-export const ProjectInfo = styled.div`
-  flex: 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: white;
-
-  h3 {
-    font-size: 28px;
-    margin-bottom: 10px;
-    color: white;
-  }
-
-  p {
-    font-size: 16px;
-    color: #ccc;
-    margin-bottom: 20px;
-  }
-
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-
-    li {
-      font-size: 16px;
-      color: #ccc;
-      margin-bottom: 5px;
-
-      &:before {
-        content: "•";
-        color: #007bff;
-        margin-right: 8px;
-      }
-    }
   }
 `;

@@ -1,6 +1,6 @@
 import { ContainerTop, PhotoWrapper, TitleTop, TitleWrapper } from "./style";
 
-export default function Top() {
+export function Top() {
   return (
     <ContainerTop>
       <TitleWrapper>
