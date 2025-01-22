@@ -1,8 +1,7 @@
-import React from "react";
-import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { formSchema, FormData } from "./schema";
+import { useForm } from "react-hook-form";
 import { Social } from "../social";
+import { FormData, formSchema } from "./schema";
 import {
   Button,
   ContainerContact,
