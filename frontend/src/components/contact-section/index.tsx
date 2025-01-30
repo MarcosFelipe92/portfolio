@@ -8,11 +8,18 @@ import {
   ErrorMessage,
   Form,
   Input,
+  InputErrorMessage,
+  SuccessMessage,
   TextArea,
   Title,
 } from "./style";
+import { sendEmail } from "../../services/send-email";
+import { useState } from "react";
 
 export function ContactSection() {
+  const [sucess, setSucess] = useState("");
+  const [error, setError] = useState("");
+
   const {
     register,
     handleSubmit,
@@ -23,9 +30,17 @@ export function ContactSection() {
     mode: "onSubmit",
   });
 
-  const onSubmit = (data: FormData) => {
-    console.log("Formulário enviado", data);
-    reset();
+  const onSubmit = async (data: FormData) => {
+    setError("");
+    setSucess("");
+    const result = await sendEmail(data);
+
+    if (result.error) {
+      setError(result.message);
+    } else {
+      setSucess(result.message);
+      reset();
+    }
   };
 
   return (
@@ -34,13 +49,19 @@ export function ContactSection() {
 
       <Form onSubmit={handleSubmit(onSubmit)}>
         <Input type="text" placeholder="Seu Nome" {...register("name")} />
-        {errors.name && <ErrorMessage>{errors.name.message}</ErrorMessage>}
+        {errors.name && (
+          <InputErrorMessage>{errors.name.message}</InputErrorMessage>
+        )}
         <Input type="email" placeholder="Seu E-mail" {...register("email")} />
-        {errors.email && <ErrorMessage>{errors.email.message}</ErrorMessage>}
+        {errors.email && (
+          <InputErrorMessage>{errors.email.message}</InputErrorMessage>
+        )}
         <TextArea placeholder="Sua Mensagem" {...register("message")} />
         {errors.message && (
-          <ErrorMessage>{errors.message.message}</ErrorMessage>
+          <InputErrorMessage>{errors.message.message}</InputErrorMessage>
         )}
+        {sucess && <SuccessMessage>{sucess}</SuccessMessage>}
+        {error && <ErrorMessage>{error}</ErrorMessage>}
         <Button type="submit">Enviar</Button>
       </Form>
 

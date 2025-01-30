@@ -17,7 +17,7 @@ export function ProjectInfo({
       <p>{description}</p>
       <ul>
         {technologies.map((t) => (
-          <li>{t}</li>
+          <li key={t}>{t}</li>
         ))}
       </ul>
     </WrapperProjectInfo>

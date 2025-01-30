@@ -76,9 +76,31 @@ export const Button = styled.button`
   }
 `;
 
-export const ErrorMessage = styled.p`
+export const InputErrorMessage = styled.p`
   color: red;
   font-size: 14px;
   margin-bottom: 20px;
   margin-top: 0;
+`;
+
+export const SuccessMessage = styled.p`
+  color: #28a745;
+  background-color: #e6f4ea;
+  border: 1px solid #28a745;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+`;
+
+export const ErrorMessage = styled.p`
+  color: #dc3545;
+  background-color: #f8d7da;
+  border: 1px solid #dc3545;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
 `;
