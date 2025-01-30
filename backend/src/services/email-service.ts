@@ -5,7 +5,7 @@ class EmailService {
     const resend = getResendInstance();
     try {
       resend.emails.send({
-        from: "Acme <onboarding@resend.dev>",
+        from: "Portfólio <onboarding@resend.dev>",
         to: "marcosfelipe.amorim.dev@gmail.com",
         subject: name,
         html: `<h3>${email}</h3><p>${message}</p>`,
