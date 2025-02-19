@@ -137,9 +137,9 @@ Error generating stack: `+u.message+`
     border-radius: 16px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   }
-`;function zg(){return J.jsxs(jg,{children:[J.jsx(Ag,{children:"Projetos"}),J.jsxs(xu,{children:[J.jsx(ku,{children:J.jsx("img",{src:"/fastshop.png",alt:"FastShop"})}),J.jsx(wu,{title:"FastShop",description:`Uma loja virtual moderna com carrinho de compras, autenticação e
-            gerenciamento de produtos.`,technologies:["Java","Next.js","React","Spring Boot","API Rest","JWT"],gitHubUrl:"https://github.com/MarcosFelipe92/LojaFastShop"})]}),J.jsxs(xu,{children:[J.jsx(ku,{children:J.jsx("img",{src:"/book-explorer.png",alt:"BookExplorer"})}),J.jsx(wu,{title:"BookExplorer",description:`Explore uma coleção de livros da API do Google Books, visualize
-            detalhes e marque seus favoritos.`,technologies:["Typescript","Next.js","React","Express.js","API Rest","Prisma ORM"],gitHubUrl:"https://github.com/MarcosFelipe92/BookExplorer",siteUrl:"https://book-explorer-omega.vercel.app/"})]}),J.jsxs(xu,{children:[J.jsx(ku,{children:J.jsx("img",{src:"/app-contato.png",alt:"Gerenciador de Contatos"})}),J.jsx(wu,{title:"App Contatos",description:`Aplicativo simples para cadastro, edição e exclusão de contatos,
+`;function zg(){return J.jsxs(jg,{children:[J.jsx(Ag,{children:"Projetos"}),J.jsxs(xu,{children:[J.jsx(ku,{children:J.jsx("img",{src:"/portfolio/fastshop.png",alt:"FastShop"})}),J.jsx(wu,{title:"FastShop",description:`Uma loja virtual moderna com carrinho de compras, autenticação e
+            gerenciamento de produtos.`,technologies:["Java","Next.js","React","Spring Boot","API Rest","JWT"],gitHubUrl:"https://github.com/MarcosFelipe92/LojaFastShop"})]}),J.jsxs(xu,{children:[J.jsx(ku,{children:J.jsx("img",{src:"/portfolio/book-explorer.png",alt:"BookExplorer"})}),J.jsx(wu,{title:"BookExplorer",description:`Explore uma coleção de livros da API do Google Books, visualize
+            detalhes e marque seus favoritos.`,technologies:["Typescript","Next.js","React","Express.js","API Rest","Prisma ORM"],gitHubUrl:"https://github.com/MarcosFelipe92/BookExplorer",siteUrl:"https://book-explorer-omega.vercel.app/"})]}),J.jsxs(xu,{children:[J.jsx(ku,{children:J.jsx("img",{src:"/portfolio/app-contato.png",alt:"Gerenciador de Contatos"})}),J.jsx(wu,{title:"App Contatos",description:`Aplicativo simples para cadastro, edição e exclusão de contatos,
             utilizando padrão MVC.`,technologies:["Dart","Flutter","SQLite","Mvc"],gitHubUrl:"https://github.com/MarcosFelipe92/AppContatos"})]})]})}const Ig=Ue.div`
   display: flex;
   flex-direction: column;
@@ -226,7 +226,7 @@ Error generating stack: `+u.message+`
   @media (max-width: 480px) {
     font-size: 20px;
   }
-`;function Vg(){return J.jsxs(Lg,{children:[J.jsx(Fg,{children:J.jsx(Mg,{children:"Desenvolvedor full-stack"})}),J.jsx(Dg,{children:J.jsx("img",{src:"/foto.png"})})]})}const $g=Ue.div`
+`;function Vg(){return J.jsxs(Lg,{children:[J.jsx(Fg,{children:J.jsx(Mg,{children:"Desenvolvedor full-stack"})}),J.jsx(Dg,{children:J.jsx("img",{src:"/portfolio/foto.png"})})]})}const $g=Ue.div`
   min-height: 80vh;
   min-width: 100vh;
   background-color: #242222;
