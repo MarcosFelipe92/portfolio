@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const WrapperProjectSection = styled.div`
+export const ProjectSectionContainer = styled.div`
   min-height: 100vh;
   background-color: #4730d3;
   padding: 60px 20px;

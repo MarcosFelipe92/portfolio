@@ -12,7 +12,7 @@ export const ContainerTop = styled.div`
   }
 `;
 
-export const PhotoWrapper = styled.div`
+export const PhotoContainer = styled.div`
   width: 300px;
   height: 300px;
   border-radius: 100%;
@@ -48,7 +48,7 @@ export const PhotoWrapper = styled.div`
   }
 `;
 
-export const TitleWrapper = styled.div`
+export const TitleContainer = styled.div`
   background: linear-gradient(to bottom, #242222 50%, #4730d3 100%);
   padding: 20px 20px 60px;
   display: inline-block;

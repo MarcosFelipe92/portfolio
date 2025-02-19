@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ContainerContact = styled.section`
+export const ContactContainer = styled.section`
   background-color: #242222;
   padding: 50px;
   text-align: center;

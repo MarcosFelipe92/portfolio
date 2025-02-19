@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const WrapperProjectInfo = styled.div`
+export const ProjectInfoContainer = styled.div`
   flex: 2;
   display: flex;
   flex-direction: column;
@@ -36,4 +36,14 @@ export const WrapperProjectInfo = styled.div`
       }
     }
   }
+`;
+
+export const LinksContainer = styled.div`
+  display: flex;
+  gap: 10px;
+`;
+
+export const ProjectInfoHeader = styled.div`
+  display: flex;
+  justify-content: space-between;
 `;

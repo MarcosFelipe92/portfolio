@@ -3,12 +3,12 @@ import { Top } from "../top";
 import {
   DescriptionContainer,
   ParagraphDescription,
-  WrapperHeaderSection,
+  HeaderSectionContainer,
 } from "./style";
 
 export function HeaderSection() {
   return (
-    <WrapperHeaderSection>
+    <HeaderSectionContainer>
       <Container>
         <Top />
         <DescriptionContainer>
@@ -22,6 +22,6 @@ export function HeaderSection() {
           </ParagraphDescription>
         </DescriptionContainer>
       </Container>
-    </WrapperHeaderSection>
+    </HeaderSectionContainer>
   );
 }

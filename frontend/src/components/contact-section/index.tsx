@@ -4,7 +4,7 @@ import { Social } from "../social";
 import { FormData, formSchema } from "./schema";
 import {
   Button,
-  ContainerContact,
+  ContactContainer,
   ErrorMessage,
   Form,
   Input,
@@ -44,7 +44,7 @@ export function ContactSection() {
   };
 
   return (
-    <ContainerContact>
+    <ContactContainer>
       <Title>Entre em Contato</Title>
 
       <Form onSubmit={handleSubmit(onSubmit)}>
@@ -68,6 +68,6 @@ export function ContactSection() {
       <div>
         <Social />
       </div>
-    </ContainerContact>
+    </ContactContainer>
   );
 }

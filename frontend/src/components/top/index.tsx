@@ -1,14 +1,19 @@
-import { ContainerTop, PhotoWrapper, TitleTop, TitleWrapper } from "./style";
+import {
+  ContainerTop,
+  PhotoContainer,
+  TitleTop,
+  TitleContainer,
+} from "./style";
 
 export function Top() {
   return (
     <ContainerTop>
-      <TitleWrapper>
+      <TitleContainer>
         <TitleTop>Desenvolvedor full-stack</TitleTop>
-      </TitleWrapper>
-      <PhotoWrapper>
+      </TitleContainer>
+      <PhotoContainer>
         <img src="/foto.png" />
-      </PhotoWrapper>
+      </PhotoContainer>
     </ContainerTop>
   );
 }

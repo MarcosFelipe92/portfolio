@@ -3,12 +3,12 @@ import {
   ProjectContainer,
   ProjectImage,
   TitleProject,
-  WrapperProjectSection,
+  ProjectSectionContainer,
 } from "./style";
 
 export function ProjectSection() {
   return (
-    <WrapperProjectSection>
+    <ProjectSectionContainer>
       <TitleProject>Projetos</TitleProject>
 
       <ProjectContainer>
@@ -27,6 +27,7 @@ export function ProjectSection() {
             "API Rest",
             "JWT",
           ]}
+          gitHubUrl="https://github.com/MarcosFelipe92/LojaFastShop"
         />
       </ProjectContainer>
 
@@ -46,6 +47,8 @@ export function ProjectSection() {
             "API Rest",
             "Prisma ORM",
           ]}
+          gitHubUrl="https://github.com/MarcosFelipe92/BookExplorer"
+          siteUrl="https://book-explorer-omega.vercel.app/"
         />
       </ProjectContainer>
 
@@ -58,8 +61,9 @@ export function ProjectSection() {
           description="Aplicativo simples para cadastro, edição e exclusão de contatos,
             utilizando padrão MVC."
           technologies={["Dart", "Flutter", "SQLite", "Mvc"]}
+          gitHubUrl="https://github.com/MarcosFelipe92/AppContatos"
         />
       </ProjectContainer>
-    </WrapperProjectSection>
+    </ProjectSectionContainer>
   );
 }
